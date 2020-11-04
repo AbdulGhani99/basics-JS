@@ -1,0 +1,18 @@
+p{
+    height: 800px;
+}
+@keyframes Anime {
+     to{
+        width: 200px;
+        background-color: lightgoldenrodyellow;
+        background-color: lightgray;
+        background-color: lightpink;
+        
+     }
+        from{
+            background-color: lightcyan;
+            background-color: lightskyblue;
+            background-image: url(mb.jpg);
+            background-repeat: no-repeat;
+        }
+    }

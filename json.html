@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+
+    </ul>
+    <script>
+        
+        // var std1={name:"Hamza",age:17}
+        // var std2={name:"Haseeb",age:24}
+        // console.log(std2.name);
+        // var students=[{name:"Hamza",age:17},{name:"Haseeb",age:24}];
+        var mobiles=[{name:"Samsung glaxy z",price:"Rs:339,000 PKR"},
+        {name:"Vivi V 20",price:"Rs:59,999 PKR",image:"images/download (1).jpg"}
+        ,{name:"Oppo F17 pro",price:"Rs:51,999 PKR"},
+        {name:"Techno Camon 16",price:"Rs:39,999 PKR"}
+    ]
+    var ul=document.querySelector('ul');
+    for(var i=0;i<mobiles.length; i++)
+    {
+        ul.innerHTML +="<li>"+mobiles[i].name+ "<br>"+mobiles[i].price+"</li>";
+ 
+
+
+
+            
+    }
+
+    </script>
+    
+</body>
+</html>

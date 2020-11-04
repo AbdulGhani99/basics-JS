@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #para{
+            background-color: rgb(197, 190, 190);
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+    //     var a=Math.log(2);
+    //     document.writeln(a);
+    //     var b=Math.random();
+    //    console.log(b);
+    // var d= new Date();
+    // document.writeln(d);
+    function fun(){
+        var d= new Date();
+   
+    document.getElementById("para").innerHTML= d.getHours()+":"+d.getMinutes();
+   
+    }
+  
+
+ 
+    </script>
+    <div id="para"></div>
+    <button onclick="fun()">Click Here</button>
+
+</body>
+</html>
